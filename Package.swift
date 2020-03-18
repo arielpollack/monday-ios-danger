@@ -7,7 +7,7 @@ let package = Package(
     name: "iOS-Danger-Rules",
     products: [
         .library(
-            name: "MondayRules",
+            name: "iOS-Danger-Rules",
             targets: ["iOS-Danger-Rules"]),
     ],
     dependencies: [
