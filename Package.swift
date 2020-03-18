@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "iOS-Danger-Rules",
+    name: "MondayRules",
     products: [
         .library(
-            name: "iOS-Danger-Rules",
+            name: "MondayRules",
             targets: ["iOS-Danger-Rules"]),
     ],
     dependencies: [
