@@ -11,6 +11,7 @@ let package = Package(
             targets: ["iOS-Danger-Rules"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/danger/swift.git", from: "3.0.0")
     ],
     targets: [
         .target(
